@@ -1,0 +1,104 @@
+.home-container {
+  position: relative;
+  height: 100vh;
+}
+
+.home-background {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../Assets/female.avif");
+  background-size: cover;
+  background-position: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar-custom {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  
+}
+
+
+.navbar-brand {
+  font-size: 2em;
+  color: white;
+  padding-top: 1rem;
+}
+
+.nav-link-custom {
+  font-size: 1.5rem;
+  color: white !important; 
+  margin: 0 0.5rem;
+  font-weight: 600;
+  
+}
+
+
+
+.nav-link-custom::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #f2e030;
+  transition: width 0.3s;
+  position: absolute;
+  bottom: 12px;
+}
+
+.nav-link-custom:hover::after {
+  width: 3%;
+  /* Make the line a small width, relative to the link */
+}
+
+
+.bio-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%, -50%);
+  
+}
+
+.bio-btn button {
+  padding: 12px 32px;
+  border: 1px solid white;
+  font-weight: 500;
+}
+
+.btn-one {
+  background-color: #f2e030;
+  color: black;
+}
+
+.btn-one:hover {
+  background-color: gray;
+  color: white;
+}
+
+.btn-two {
+  background: transparent;
+  color: white;
+}
+
+.btn-two:hover {
+  background-color: grey;
+}
+
+.btn-desig{
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+@media (max-width: 600px) {
+  .bio-btn {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .bio-btn button {
+    margin-bottom: 10px; 
+    width: 100%; 
+  }
+}

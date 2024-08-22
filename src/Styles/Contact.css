@@ -1,0 +1,67 @@
+.icon {
+    display: flex;
+  }
+  
+  .contact-container {
+    padding: 60px 0;
+    background-color: #1c1c1c;
+  }
+  
+  .contact-info .contact-item {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info .icon {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-icon {
+    color: #f2e030;
+    font-size: 2rem;
+    margin-right: 20px;
+  }
+  
+  .contact-info h5 {
+    margin: 0;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .contact-info p {
+    margin: 0;
+    color: #555;
+  }
+  
+  .cards {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    background-color: white;
+  }
+  
+  .card-body {
+    padding: 30px;
+  }
+  
+  .submit-btn {
+    background-color: #f2e030;
+    padding: 15px;
+    color: black;
+    border: 1px solid white;
+    font-weight: 500;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background-color: gray;
+    color: white;
+    font-weight: 500;
+  }
+  
