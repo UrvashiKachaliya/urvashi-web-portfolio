@@ -11,7 +11,8 @@ export default function Contact() {
   const form = useRef();
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault(); // Prevent the default form submission behavior
+    console.log('Form submission prevented'); // Debugging line
 
     emailjs.sendForm(
       'service_wrenh4d', // Your Service ID
