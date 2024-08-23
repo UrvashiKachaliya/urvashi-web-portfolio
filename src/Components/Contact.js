@@ -13,6 +13,7 @@ export default function Contact() {
   const form = useRef();
   const [loading, setLoading] = useState(false);
 
+
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -21,7 +22,10 @@ export default function Contact() {
     const message = form.current.message.value;
 
     if (!email || !subject || !message) {
-      toast.error("All fields are required.");
+      
+      toast.error('All fields are required', {
+        autoClose: 1500,
+      });
       return;
     }
 
@@ -36,11 +40,16 @@ export default function Contact() {
       )
       .then((result) => {
         setLoading(false);
-        toast.success("Email sent successfully!");
+        toast.success('Email sent successfully!', {
+          autoClose: 1500,
+        })
+        form.current.reset();
       })
       .catch((error) => {
         setLoading(false);
-        toast.error("Failed to send the message, please try again.");
+        toast.error('Failed to send the message, please try again.', {
+          autoClose: 1500,
+        })
       });
   };
   return (
@@ -132,6 +141,7 @@ export default function Contact() {
                         type="email"
                         name="user_email"
                         placeholder="Enter your email"
+                        autoComplete="off"
                       />
                     </Form.Group>
                     <Form.Group controlId="formSubject" className="mt-3">
@@ -139,6 +149,7 @@ export default function Contact() {
                         type="text"
                         name="subject" 
                         placeholder="Enter subject"
+                        autoComplete="off"
                       />
                     </Form.Group>
                     <Form.Group controlId="formMessage" className="mt-3">
@@ -147,6 +158,7 @@ export default function Contact() {
                         rows={5}
                         name="message" 
                         placeholder="Your message"
+                        autoComplete="off"
                       />
                     </Form.Group>
                                         <button
