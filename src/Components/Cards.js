@@ -1,6 +1,5 @@
 import React from 'react'
 import { Button, Card } from 'react-bootstrap'
-import image from "../Assets/store.JPG"
 import "../Styles/Cards.css";
 
 
