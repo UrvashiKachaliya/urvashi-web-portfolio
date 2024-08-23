@@ -48,8 +48,8 @@ export default function Project() {
                 title="Weather App"
                 description="An interactive weather application that fetches data using the REST API. Provides real-time weather updates with a clean and intuitive interface."
                 imageurl={image1}
-                viewLink=""
-                codeLink=""
+                viewLink="https://weather-app-api-eosin.vercel.app/"
+                codeLink="https://github.com/UrvashiKachaliya/Weather-App/tree/main"
 
               />
             </Col>
@@ -60,8 +60,8 @@ export default function Project() {
                 title="Image Explorer"
                 description="A versatile image explorer app utilizing the Google API to search and display images. Offers a seamless experience for discovering visual content."
                 imageurl={image3}
-                viewLink=""
-                codeLink=""
+                viewLink="https://react-image-explorer.vercel.app/"
+                codeLink="https://github.com/UrvashiKachaliya/ReactImageExplorer"
               />
             </Col>
             <Col lg={4} md={6} sm={12} xs={12}>

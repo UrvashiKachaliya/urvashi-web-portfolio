@@ -60,6 +60,7 @@
   .heading-highlight {
     position: relative;
     display: inline-block;
+    text-transform: uppercase;
   }
   
   .heading-highlight::after {
