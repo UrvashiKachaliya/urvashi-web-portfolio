@@ -13,7 +13,6 @@ export default function Contact() {
   const form = useRef();
   const [loading, setLoading] = useState(false);
 
-
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -22,8 +21,7 @@ export default function Contact() {
     const message = form.current.message.value;
 
     if (!email || !subject || !message) {
-      
-      toast.error('All fields are required', {
+      toast.error("All fields are required", {
         autoClose: 1500,
       });
       return;
@@ -40,16 +38,16 @@ export default function Contact() {
       )
       .then((result) => {
         setLoading(false);
-        toast.success('Email sent successfully!', {
+        toast.success("Email sent successfully!", {
           autoClose: 1500,
-        })
+        });
         form.current.reset();
       })
       .catch((error) => {
         setLoading(false);
-        toast.error('Failed to send the message, please try again.', {
+        toast.error("Failed to send the message, please try again.", {
           autoClose: 1500,
-        })
+        });
       });
   };
   return (
@@ -74,7 +72,12 @@ export default function Contact() {
                     <CallIcon className="contact-icon" />
                     <div>
                       <h5>Phone</h5>
-                      <p>+91 9924351355</p>
+                      <a
+                        href="tel:9924351355"
+                        style={{ color: "inherit", textDecoration: "none" }}
+                      >
+                        +91 9924351355
+                      </a>{" "}
                     </div>
                   </div>
                 </Col>
@@ -85,7 +88,12 @@ export default function Contact() {
                     <EmailIcon className="contact-icon" />
                     <div>
                       <h5>Email</h5>
-                      <p>kachaliyaurvashi@gmail.com</p>
+                      <a
+                        href="mailto:kachaliyaurvashi@gmail.com"
+                        style={{ color: "inherit", textDecoration: "none" }}
+                      >
+                        kachaliyaurvashi@gmail.com
+                      </a>
                     </div>
                   </div>
                 </Col>
@@ -147,7 +155,7 @@ export default function Contact() {
                     <Form.Group controlId="formSubject" className="mt-3">
                       <Form.Control
                         type="text"
-                        name="subject" 
+                        name="subject"
                         placeholder="Enter subject"
                         autoComplete="off"
                       />
@@ -156,12 +164,12 @@ export default function Contact() {
                       <Form.Control
                         as="textarea"
                         rows={5}
-                        name="message" 
+                        name="message"
                         placeholder="Your message"
                         autoComplete="off"
                       />
                     </Form.Group>
-                                        <button
+                    <button
                       className="submit-btn w-100 mt-4"
                       type="submit"
                       disabled={loading}
