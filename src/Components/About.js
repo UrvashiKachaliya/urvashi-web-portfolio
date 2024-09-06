@@ -43,7 +43,7 @@ export default function About() {
                   </h3>
                   <p className="date">Aug 2023 - Jan 2024</p>
                 </div>
-                <p className="details-two">I design and develop full-stack web applications, create and manage MongoDB databases, and build RESTful APIs using Node.js and Express.js. I also collaborate with team members to ensure high-quality software delivery.</p>
+                <p className="details-two">During my internship, I advanced my skills in React, progressing from basic to intermediate levels, and worked on several projects, including those involving API fetching and more, to solidify my knowledge.</p>
               </div>
             </Col>
           </Row>
