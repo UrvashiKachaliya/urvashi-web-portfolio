@@ -20,7 +20,6 @@ export default function About() {
   <p>
     I have a passion for building visually appealing and functional web applications, always striving for excellence in every project. My journey in tech is driven by curiosity and a commitment to continuous learning. I enjoy collaborating with others to create impactful solutions that make a difference.
   </p>
-  <Link to="contact"><button className="mx-2 btn-contact">CONTACT</button></Link>
 </div>
 
             </Col>

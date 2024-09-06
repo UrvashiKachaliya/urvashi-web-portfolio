@@ -81,7 +81,7 @@ const Home = () => {
 
         <div className="bio-section">
           <h1 className="text-center">I'm Urvashi Kachaliya</h1>
-          <p className="text-center btn-desig">FRONT-END DEVELOPER</p>
+          <p className="text-center btn-desig">FRONT-END FRESHER</p>
           <div className="bio-btn text-center">
             <Link to="projects" smooth={true} duration={500}>
               <button className="mx-2 btn-one">PROJECTS</button>
