@@ -14,7 +14,7 @@ export default function About() {
               <h1 className="text-black fw-bold">Let me introduce myself !</h1>
               <div className="content py-4">
   <p>
-    <span className="highlight-text">Hey Folks</span>, I'm Urvashi Kachaliya, a Software Developer with six months of hands-on experience in 
+    <span className="highlight-text">Hey Folks</span>, I'm Urvashi Kachaliya, a front-end intern with six months of hands-on experience in 
     <span className="highlight-text"> HTML, CSS, JavaScript, and React.</span>
   </p>
   <p>
