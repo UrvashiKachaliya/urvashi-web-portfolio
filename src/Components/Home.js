@@ -91,8 +91,9 @@ const Home = () => {
 
             <p className="bio-role">REACTJS FRESHER</p>
 
-            <button className="bio-btn">MORE ABOUT ME</button>
-          </Container>
+            <Link to="about" smooth={true} duration={500}>
+        <button className="bio-btn">MORE ABOUT ME</button>
+      </Link>          </Container>
         </div>
       </div>
     </div>
