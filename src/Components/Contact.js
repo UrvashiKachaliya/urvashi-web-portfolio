@@ -57,7 +57,7 @@ export default function Contact() {
           <Row>
             <Col lg={12}>
               <div className="experience">
-                <h1 className="text-center text-white heading-highlight">
+                <h1 className="text-center text-black heading-highlight">
                   Contact
                 </h1>
               </div>

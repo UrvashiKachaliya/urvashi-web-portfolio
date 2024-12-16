@@ -5,7 +5,8 @@
   }
   
   .highlight-text {
-    color: #f2e030; 
+    color: #cc005f; 
+    font-weight: 600;
   }
   
   .content {
@@ -16,11 +17,11 @@
   
   .content p {
     margin-bottom: 1rem;
-    color: white;
+    color: black;
   }
   
   .btn-contact {
-    background-color: #f2e030;
+    background-color: #cc005f;
     color: black;
     border: none;
     padding: 10px 30px;
@@ -70,7 +71,7 @@
     bottom: -5px; 
     width: 100%;
     height: 3px;
-    background: #f2e030; 
+    background: #cc005f; 
     border-radius: 2px; 
   }
   .experience-one {
@@ -90,7 +91,7 @@
     margin-top: 0.6rem;
   }
   .date{
-    color:#f2e030;
+    color:#cc005f;
   }
   
   @media (max-width: 480px) {

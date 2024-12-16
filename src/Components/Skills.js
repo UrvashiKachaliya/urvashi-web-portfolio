@@ -11,12 +11,12 @@ import redux from "../Assets/redux.jpeg";
 export default function Skills() {
   return (
     <div id="skills">
-      <Container fluid className='bg-black'>
+      <Container fluid className='bg-white'>
         <Container className='pb-5'>
           <Row>
             <Col lg={12}>
               <div className="experience">
-                <h1 className="text-center text-white heading-highlight">
+                <h1 className="text-center text-black heading-highlight">
                   Skills
                 </h1>
               </div>

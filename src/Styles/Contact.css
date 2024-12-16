@@ -4,7 +4,7 @@
   
   .contact-container {
     padding: 50px 0;
-    background-color: #1c1c1c;
+    background-color: white;
   }
   
   .contact-info .contact-item {
@@ -22,7 +22,7 @@
   }
   
   .contact-icon {
-    color: #f2e030;
+    color: #cc005f;
     font-size: 2rem;
     margin-right: 20px;
   }
@@ -50,9 +50,9 @@
   }
   
   .submit-btn {
-    background-color: #f2e030;
+    background-color: #cc005f;
     padding: 15px;
-    color: black;
+    color: white;
     border: 1px solid white;
     font-weight: 500;
     border-radius: 8px;
@@ -60,7 +60,7 @@
   }
   
   .submit-btn:hover {
-    background-color: gray;
+    background-color: black;
     color: white;
     font-weight: 500;
   }

@@ -7,11 +7,11 @@ import { Link } from "react-scroll";
 export default function About() {
   return (
     <div id="about">
-      <Container fluid className="bg-black">
+      <Container fluid className="bg-white">
         <Container>
           <Row>
             <Col lg={7} className="p-5">
-              <h1 className="text-white">Who Am I?</h1>
+              <h1 className="text-black fw-bold">Let me introduce myself !</h1>
               <div className="content py-4">
   <p>
     <span className="highlight-text">Hey Folks</span>, I'm Urvashi Kachaliya, a Software Developer with six months of hands-on experience in 
@@ -32,7 +32,7 @@ export default function About() {
           <Row>
             <Col lg={12}>
               <div className="experience">
-                <h1 className="text-center text-white heading-highlight">
+                <h1 className="text-center text-black heading-highlight">
                   Experience
                 </h1>
               </div>
